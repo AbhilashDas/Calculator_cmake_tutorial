@@ -25,3 +25,9 @@ add_executable(Calculator
 
 # include directories
 include_directories( ${PROJECT_SOURCE_DIR}/header)
+
+set_target_properties(
+		Calculator
+		PROPERTIES
+			DEBUG_POSTFIX "d"
+		)
